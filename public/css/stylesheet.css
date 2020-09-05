@@ -1,0 +1,53 @@
+@font-face{
+    font-family: Overpass;
+    src: url("fonts/Overpass-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: Overpass;
+    src: url("fonts/Overpass-Bold.ttf");
+    font-weight: bold;
+}
+
+section > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+
+}
+
+main > h1{
+    margin: 0px;
+    font-family: Overpass, Arial;
+    font-weight: bold;
+}
+
+main > *{
+    padding: 25px;
+}
+
+section > p{
+    margin: 4px;
+}
+
+.insult{
+    font-size: 32px;
+}
+
+.source{
+    font-size: 24px;
+}
+
+.moveUp-leave-active, .moveUp-enter-active{
+    transition: transform 2s
+}
+
+.moveUp-leave{
+    transform: translate(0, 0);
+}
+
+.moveUp-leave-to{
+    transform: translate(0, -29px);
+}
