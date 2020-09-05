@@ -1,12 +1,12 @@
 @font-face{
     font-family: Overpass;
-    src: url("fonts/Overpass-Regular.ttf");
+    src: url("/public/fonts/Overpass-Regular.ttf");
     font-weight: normal;
 }
 
 @font-face{
     font-family: Overpass;
-    src: url("fonts/Overpass-Bold.ttf");
+    src: url("/public/fonts/Overpass-Bold.ttf");
     font-weight: bold;
 }
 
