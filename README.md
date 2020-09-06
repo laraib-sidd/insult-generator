@@ -9,7 +9,7 @@
 ⚡️ Social Media Sharing\
 ⚡️ Fully Responsive\
 
-To view a live example, **[click here](https://my-not-first-chat-app.herokuapp.com/)**
+To view a live example, **[click here](https://insultgenerator7.herokuapp.com/)**
 
 ---
 
@@ -69,15 +69,12 @@ $ sudo npm install --unsafe-perm=true --allow-root
 
 Once you have done with your setup. You need to put your website online!
 
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+I highly recommend to use [Heroku](https://heroku.com) to achieve this on the EASIEST WAY
 
 ## Authors
 
 - **Laraib Siddiqui** - [https://github.com/laraib-sidd](https://github.com/laraib-sidd)
 
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0cf5cde3-24ec-4929-9f19-ce5e0ef6adf3/deploy-status)](https://app.netlify.com/sites/laraib-sidd/deploys)
 
 ## License 📄
 
