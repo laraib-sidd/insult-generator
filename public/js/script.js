@@ -1,4 +1,3 @@
-insultBtn = document.querySelector('.insultButton')
 
 let tweetButton = document.getElementById("tweet")
 
