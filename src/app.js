@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
-const getInsult = require('./utils/data')
+const getInsult = require('./utils/getRandomInsult')
 
 // Intitalising Express App
 const app = express();
