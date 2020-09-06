@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>The Insult</title>
-    <link rel="stylesheet" href="./css/stylesheet.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </head>
-  <style>
-    html{
-        height: 100%;
-    }
-    body{
-        height: 100%;
-    }
-  </style>
-  <body>
-    <main class="wrapper" style="display: flex; flex-direction: column; height: 100%;" data-barba="wrapper">
-        <h1 style="height: 50px;">Insult Generator</h1>
-        <section style="display: flex; justify-content: center; align-items: center; flex-direction: column; flex-grow: 1;" data-barba="container">
-            <a href="/insult">
-                <img src="./assets/images/shakespeare.jpg" style="height: 250px;">
-            </a>
-            <div style="height: 50px;"></div>
-            <a href="/insult">Insult Me!</a>
-            <p class="insult" style="height: 20px;">
-                {{insult}}
-            </p>
-            <p class="source" style="height: 10px;">
-                {{source}}
-            </p>
-            <hr>
-            <div style="height: 5px;"></div>
-            <a id="tweet">
-              Tweet
-            </a>
-            <a ref="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Insult goes here!" data-show-count="false"></a><script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </section>
-          </main>
-        </body>
-        
-  <script src="./js/barba.js"></script>
-  <script src="./js/barba-css.js"></script>
-  <script src="./js/script.js"></script>
+
+<head>
+  <meta charset="utf-8">
+  <title>The Insult</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+<style>
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+  }
+</style>
+
+<body>
+  <main class="wrapper" style="display: flex; flex-direction: column; height: 100%;" data-barba="wrapper">
+    <h1 style="height: 50px;">Insult Generator</h1>
+    <section style="display: flex; justify-content: center; align-items: center; flex-direction: column; flex-grow: 1;"
+      data-barba="container">
+      <a href="/insult">
+        <img src="./assets/images/shakespeare.jpg" style="height: 250px;">
+      </a>
+      <div style="height: 50px;"></div>
+      <a href="/insult">Insult Me!</a>
+      <p class="insult" style="height: 20px;">
+        {{insult}}
+      </p>
+      <p class="source" style="height: 10px;">
+        {{source}}
+      </p>
+      <hr>
+      <div style="height: 5px;"></div>
+      <a id="tweet">
+      </a>
+      <a ref="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+        data-text="Insult goes here!" data-show-count="false"></a>
+      <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section>
+  </main>
+</body>
+
+<script src="./js/barba.js"></script>
+<script src="./js/barba-css.js"></script>
+<script src="./js/script.js"></script>
+
 </html>
